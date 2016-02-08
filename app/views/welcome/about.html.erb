@@ -1,0 +1,7 @@
+<h1>About me</h1>
+<p>Lots of interesting stuffs.</p>
+<p>My favorite color is blue<%= @blue %></p>
+
+<%= link_to "Hello", about_path(color: "blue"), class: "btn btn-primary" %>
+<%= link_to "oh no!", about_path(color: "red"), class: "btn btn-warning" %>
+<%= link_to "what is this?", about_path(color: "green"), class: "btn btn-success" %>
